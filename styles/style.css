@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Quicksand;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header-container {
+  display: flex;
+}
+
+.letter-container {
+  margin: 21px 0px 20px 27px;
+  font-size: 45px;
+  font-weight: 700;
+
+  letter-spacing: 0%;
+  display: flex;
+}
+
+.letter-p {
+  color: #3d8493;
+}
+
+.letter-o {
+  color: #d89f65;
+}
+
+.letter-s {
+  color: #4a5c2f;
+}
+
+.search-bar {
+  background-color: #ecf3f5;
+  border: none;
+  width: 357px;
+  height: 58px;
+  border-radius: 10px;
+  margin: 21px 0px 20px 109px;
+}
+
+input::placeholder {
+  padding: 20px 129px 19px 25px;
+  color: #89928e;
+}
