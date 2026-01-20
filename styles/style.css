@@ -125,3 +125,148 @@ input::placeholder {
 button:hover {
   background-color: #98c9de;
 }
+
+.menu-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, auto);
+  gap: 20px;
+  width: 900px;
+  margin: 12px 472px 0 140px;
+  overflow-y: auto;
+  padding-bottom: 50px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 203px;
+  height: 214px;
+  background-color: #d8e6e9;
+  border-radius: 15px;
+  overflow: hidden;
+  overflow: auto;
+}
+
+.card-img {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img img {
+  width: 100%;
+  height: 143px;
+  display: block;
+  object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+figcaption {
+  background-color: #d8e6e9;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 15px;
+}
+
+figcaption p {
+  margin: 0 0 5px 0;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.category-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.category-name {
+  font-size: 12px;
+  font-weight: 500;
+  width: 65px;
+  height: 15px;
+}
+
+.category-badge {
+  background-color: #e2b38a;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 20px;
+}
+
+.category-badge-g-one {
+  background-color: rgba(216, 159, 101, 1);
+  color: #ffffff;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 70px;
+}
+
+.category-badge-g {
+  background-color: rgba(216, 159, 101, 1);
+  color: #ffffff;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.category-badge-n {
+  background-color: #e2b38a;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000;
+  margin-left: 40px;
+}
+
+.category-badge-zero {
+  background-color: white;
+  color: black;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
+.peper-icon {
+  display: flex;
+  gap: 4px;
+}
+
+.peper-icon img {
+  width: 20px;
+  height: auto;
+}
